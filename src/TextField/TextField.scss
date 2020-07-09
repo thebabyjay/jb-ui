@@ -1,0 +1,56 @@
+
+@import 'styles/config.scss';
+
+
+.textField {
+  &__labelContainer {
+    width: 100%;
+    height: 20px;
+  }
+  &__label {
+    font-family: $fontFamily-n1;
+    font-size: 10pt;
+    color: $primary;
+  }
+  &__required {
+    font-family: $fontFamily-n1;
+    font-size: 9pt;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+    color: $primary;
+  }
+  &__alert {
+    color: $alert;
+  }
+  &__inputContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid $tertiary;
+    background-color: $white;
+    align-items: center;
+  }
+  &__input {
+    width: 100%;
+    height: 40px;
+    flex: 2;
+    font-family: $fontFamily-n1;
+    font-size: $fontSize-n1;
+    color: $primary;
+    border: none;
+    padding-left: 5px;
+  }
+  &__input:focus {
+    outline: none;
+  }
+  &__icon {
+    width: 20px;
+    height: 20px;
+    color: $primary;
+    fill: $primary;
+  }
+  &__requiredAlert {
+    color: $alert;
+  }
+}

@@ -1,0 +1,122 @@
+/* ======= Base ======= */
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.mc-ui-h1 {
+  font-family: $fontFamily-h1;
+  font-size: $fontSize-h1;
+  color: $fontColor-h1;
+}
+.mc-ui-h2 {
+  font-family: $fontFamily-h2;
+  font-size: $fontSize-h2;
+  color: $fontColor-h2;
+  text-transform: uppercase;
+}
+.mc-ui-h3 {
+  font-family: $fontFamily-h2;
+  font-size: $fontSize-h2;
+  color: $fontColor-h2;
+}
+.mc-ui-p1 {
+  font-family: $fontFamily-p1;
+  font-size: $fontSize-p1;
+  color: $fontColor-p1;
+}
+.mc-ui-p2 {
+  font-family: $fontFamily-p2;
+  font-size: $fontSize-p2;
+  color: $fontColor-p2;
+}
+.mc-ui-p3 {
+  font-family: $fontFamily-p3;
+  font-size: $fontSize-p3;
+  color: $fontColor-p3;
+}
+.mc-ui-n1 {
+  font-family: $fontFamily-n1;
+  font-size: $fontSize-n1;
+  color: $fontColor-n1;
+}
+.mc-ui-n2 {
+  font-family: $fontFamily-n2;
+  font-size: $fontSize-n2;
+  color: $fontColor-n2;
+}
+.mc-ui-n3 {
+  font-family: $fontFamily-n3;
+  font-size: $fontSize-n3;
+  color: $fontColor-n3;
+}
+.mc-ui-s1 {
+  font-family: $fontFamily-s1;
+  font-size: $fontSize-s1;
+  color: $fontColor-s1;
+}
+.mc-ui-s2 {
+  font-family: $fontFamily-s2;
+  font-size: $fontSize-s2;
+  color: $fontColor-s2;
+}
+.mc-ui-s3 {
+  font-family: $fontFamily-s3;
+  font-size: $fontSize-s3;
+  color: $fontColor-s3;
+}
+.mc-ui-b1 {
+  font-family: $fontFamily-b1;
+  font-size: $fontSize-b1;
+  color: $fontColor-b1;
+}
+.mc-ui-b2 {
+  font-family: $fontFamily-b2;
+  font-size: $fontSize-b2;
+  color: $fontColor-b2;
+}
+
+.mc-ui-text-color-default {
+  color: $primary;
+}
+.mc-ui-button-color-action {
+  color: $action;
+}
+.mc-ui-button-color-active {
+  color: $active;
+}
+.mc-ui-button-color-pending {
+  color: $pending;
+}
+.mc-ui-button-color-alert {
+  color: $alert;
+}
+.mc-ui-button-color-programmable {
+  color: $programmable;
+}
+.mc-ui-menuItem {
+  @extend .mc-ui-n1;
+  padding: 5px;
+}

@@ -1,0 +1,148 @@
+@import 'styles/config.scss';
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.mc-ui-button-size-xs {
+  padding: 2px 6px;
+}
+.mc-ui-button-size-sm {
+  padding: 6px 10px;
+
+}
+.mc-ui-button-size-md {
+  padding: 10px 20px;
+}
+.mc-ui-button-size-lg {
+  padding: 12px 22px;
+}
+.mc-ui-button-size-xl {
+  padding: 14px 24px;
+}
+.mc-ui-button {
+  &-primary {
+    &-default {
+      border: 1px solid grey;
+      background-color: grey;
+    }
+    &-action {
+      border: 1px solid $action;
+      background-color: $action;
+    }
+    &-active {
+      border: 1px solid $active;
+      background-color: $active;
+    }
+    &-pending {
+      border: 1px solid $pending;
+      background-color: $pending;
+    }
+    &-alert {
+      border: 1px solid $alert;
+      background-color: $alert;
+    }
+    &-programmable {
+      border: 1px solid $programmable;
+      background-color: $programmable;
+    }
+  }
+  &-secondary {
+    &-default {
+      border: 1px solid grey;
+      background-color: transparent;
+    }
+    &-action {
+      border: 1px solid $action;
+      background-color: transparent;
+    }
+    &-active {
+      border: 1px solid $active;
+      background-color: transparent;
+    }
+    &-pending {
+      border: 1px solid $pending;
+      background-color: transparent;
+    }
+    &-alert {
+      border: 1px solid $alert;
+      background-color: transparent;
+    }
+    &-programmable {
+      border: 1px solid $programmable;
+      background-color: transparent;
+    }
+  }
+  &-tertiary {
+    &-default {
+      border: 1px dashed grey;
+      background-color: transparent;
+    }
+    &-action {
+      border: 1px dashed $action;
+      background-color: transparent;
+    }
+    &-active {
+      border: 1px dashed $active;
+      background-color: transparent;
+    }
+    &-pending {
+      border: 1px dashed $pending;
+      background-color: transparent;
+    }
+    &-alert {
+      border: 1px dashed $alert;
+      background-color: transparent;
+    }
+    &-programmable {
+      border: 1px dashed $programmable;
+      background-color: transparent;
+    }
+  }
+}
+.mc-ui-button-text {
+  font-family: $fontFamily-b1;
+  font-size: $fontSize-b1;
+  line-height: 20pt;
+  text-align: center;
+  text-decoration: none;
+  &-primary {
+    color: $white !important;
+  }
+  &-secondary {
+    &-action {
+      color: $action;
+    }
+    &-active {
+      color: $active;
+    }
+    &-pending {
+      color: $pending;
+    }
+    &-alert {
+      color: $alert;
+    }
+    &-programmable {
+      color: $programmable;
+    }
+  }
+  &-tertiary {
+    &-action {
+      color: $action;
+    }
+    &-active {
+      color: $active;
+    }
+    &-pending {
+      color: $pending;
+    }
+    &-alert {
+      color: $alert;
+    }
+    &-programmable {
+      color: $programmable;
+    }
+  }
+}

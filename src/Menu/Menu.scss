@@ -1,0 +1,13 @@
+@import 'styles/config.scss';
+
+.menu {
+  padding: 0px 5px 5px 5px;
+  cursor: pointer;
+
+  &__menu {
+    background-color: $white;
+    border: 2px solid $tertiary;
+    max-height: max-content;
+    //drop shadow at 2pt blur, 0 x offset, 0 y offset 15% opacity and 163042 color
+  }
+}

@@ -1,0 +1,13 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
+import s from './{{name}}.scss';
+
+const {{name}} = () => {
+  return <span className={classnames(s.{{camelCaseName}})}></span>;
+};
+{{name}}.propTypes = {
+  prop: PropTypes.string,
+};
+
+export default {{name}};

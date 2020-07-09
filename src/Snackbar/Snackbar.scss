@@ -1,0 +1,33 @@
+@import 'styles/theme-1.scss';
+
+.snackbar {
+  &__close {
+    padding: 4px;
+  }
+  &__content {
+    &__success {
+      background-color: $active !important;
+    }
+    &__warning {
+      background-color: $pending !important;
+    }
+    &__error {
+      background-color: $alert !important;
+    }
+    &__info {
+      background-color: $action !important;
+    }
+    &__message {
+      display: flex;
+      align-items: center;
+
+      &__icon {
+        font-size: 20px;
+      }
+      &__iconVariant {
+        opacity: 0.9;
+        margin-right: 8px;
+      }
+    }
+  }
+}

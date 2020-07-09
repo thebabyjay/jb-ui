@@ -1,0 +1,151 @@
+/*************************** Theme Colors****************************/
+$action: #109CF1;
+$actionDark: #125DA1;
+$active: #2ED47A;
+$activeDark: #287C13;
+$pending: #FFA309;
+$pendingDark: #DA8900;
+$alert: #F7685B;
+$alertDark: #A82528;
+$programmable: #885AF8;
+$programmableDark: #5329B9;
+
+$primary: #163042;
+$secondary: #246478;
+$tertiary: #A1CFD8;
+$quaternary: #CFE0DA;
+$white: #FFFFFF;
+$background: #ECF5F7;
+$sideBar: #163042;
+
+// h1
+$fontFamily-h1: 'UniversLTStd-Bold', 'Roboto-Bold', 'Helvetica', 'Arial';
+$fontSize-h1: 32pt;
+$fontColor-h1: $primary;
+
+// h2
+$fontFamily-h2: 'UniversLTStd-Bold', 'Roboto-Bold', 'Helvetica', 'Arial';
+$fontSize-h2: 20pt;
+$fontColor-h2: $primary;
+
+// s1
+$fontFamily-s1: 'UniversLTStd-Light', 'Roboto-Light', 'Helvetica', 'Arial';
+$fontSize-s1: 20pt;
+$fontColor-s1: $primary;
+
+// s2
+$fontFamily-s2: 'UniversLTStd-Light', 'Roboto-Light', 'Helvetica', 'Arial';
+$fontSize-s2: 16pt;
+$fontColor-s2: $primary;
+
+
+// s3
+$fontFamily-s3: 'UniversLTStd-Light', 'Roboto-Light', 'Helvetica', 'Arial';
+$fontSize-s3: 14pt;
+$fontColor-s3: $primary;
+
+
+// p1
+$fontFamily-p1: 'Roboto-Regular', 'Helvetica', 'Arial';
+$fontSize-p1: 14pt;
+$fontColor-p1: $primary;
+
+// p2
+$fontFamily-p2: 'Roboto-Bold', 'Helvetica', 'Arial';
+$fontSize-p2: 14pt;
+$fontColor-p2: $primary;
+
+// p3
+$fontFamily-p3: 'Roboto-Light', 'Helvetica', 'Arial';
+$fontSize-p3: 14pt;
+$fontColor-p3: $primary;
+
+// n1
+$fontFamily-n1: 'Roboto-Regular', 'Helvetica', 'Arial';
+$fontSize-n1: 12pt;
+$fontColor-n1: $primary;
+
+// n2
+$fontFamily-n2: 'Roboto-Bold', 'Helvetica', 'Arial';
+$fontSize-n2: 12pt;
+$fontColor-n2: $primary;
+
+// n3
+$fontFamily-n3: 'Roboto-Light', 'Helvetica', 'Arial';
+$fontSize-n3: 12pt;
+$fontColor-n3: $primary;
+
+
+// b1
+$fontFamily-b1: 'Roboto-Regular', 'Helvetica', 'Arial';
+$fontSize-b1: 14pt;
+$fontColor-b1: $white;
+
+// b2
+$fontFamily-b2: 'Roboto-Regular', 'Helvetica', 'Arial';
+$fontSize-b2: 16pt;
+$fontColor-b2: $white;
+
+
+//Social
+$facebook: #3b5998;
+$twitter: #55acee;
+$google: #dd4b39;
+$github: #444;
+
+// Custom break point (Min)
+$min-1800: 1800px;
+$min-1440: 1440px;
+$min-1280: 1280px;
+$min-1200: 1200px;
+$min-1080: 1080px;
+$min-1024: 1024px;
+$min-960: 960px;
+$min-840: 840px;
+$min-768: 768px;
+$min-720: 720px;
+$min-640: 640px;
+$min-600: 600px;
+$min-560: 560px;
+$min-540: 540px;
+$min-480: 480px;
+$min-420: 420px;
+$min-375: 375px;
+$min-360: 360px;
+
+// Custom break points (Max)
+$max-1280: 1279px;
+$max-1200: 1199px;
+$max-1080: 1079px;
+$max-1024: 1023px;
+$max-960: 959px;
+$max-840: 839px;
+$max-768: 767px;
+$max-720: 719px;
+$max-640: 639px;
+$max-600: 599px;
+$max-540: 539px;
+$max-480: 479px;
+$max-420: 419px;
+$max-375: 374px;
+$max-360: 359px;
+
+// Predefined breakpoints
+$min-mobile: $min-420;
+$min-tablet: $min-720;
+$min-desktop: $min-1080;
+
+$max-mobile: $max-420;
+$max-tablet: $max-720;
+$max-desktop: $max-1080;
+
+// should use these in any navigation breakpoint instance
+$mobile-nav-max: $max-desktop;
+$desktop-nav-min: $min-desktop;
+
+// UI
+$gutter: 10px;
+$button-height: 56px;
+$header-utility-height: 32px;
+$header-height: $button-height + $header-utility-height + ($gutter * 1.5);
+$header-height-mobile: 80px;

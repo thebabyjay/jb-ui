@@ -1,0 +1,35 @@
+@import 'styles/config.scss';
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+
+  }
+  &__checked {
+    background-color: $action;
+    border: 1px solid $white;
+  }
+  &__checkmark {
+    fill: $white;
+    width: 15px;
+  }
+  &__unchecked {
+    background: grey;
+    border: 1px solid #333333;
+  }
+  &__labelContainer {
+    flex: 1;
+    padding-left: 10px;
+  }
+  &__label {
+    font-family: 'inherit';
+  }
+}

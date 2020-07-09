@@ -1,0 +1,16 @@
+@import 'styles/config.scss';
+
+.card {
+  &__outerContainer {
+   
+  }
+  &__innerContainer {
+    display: flex;
+    flex: 1;
+    border: 1px solid $tertiary;
+    padding: 20px;
+  }
+  &__content {
+    flex: 1;
+  }
+}

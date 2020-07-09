@@ -1,0 +1,10 @@
+@import 'styles/config.scss';
+
+.menuItem {
+  @extend .mc-ui-menuItem;
+  list-style-type: none;
+  min-height: 22px;
+  &__selected {
+    background-color: $tertiary;
+  }
+}
